@@ -2,7 +2,7 @@
 Este projeto teve como objetivo o desenvolvimento de um agente de inteligência artificial que 
 atua como consultor de marketing digital para ajudar empresas a crescerem no ambiente virtual.
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 - Java
 - API Manus AI
 - Apache Netbeans
