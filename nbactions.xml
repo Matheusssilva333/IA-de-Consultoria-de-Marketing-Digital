@@ -10,7 +10,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:3.1.0:exec</goal>
             </goals>
             <properties>
-                <exec.vmArgs>-DMANUS_API_KEY=sk--QsW0zCPIefexyFZRPv65AXTtDuuItUvzE5NAsT4bzxoM8d5JBEn7QJkjuIsURwR7d6xb8i1breOci4XrtZGIcI6SZnh</exec.vmArgs>
+                <exec.vmArgs></exec.vmArgs>
                 <exec.args>${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}</exec.args>
                 <exec.appArgs></exec.appArgs>
                 <exec.mainClass>${packageClassName}</exec.mainClass>
@@ -27,7 +27,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:3.1.0:exec</goal>
             </goals>
             <properties>
-                <exec.vmArgs>-DMANUS_API_KEY=sk--QsW0zCPIefexyFZRPv65AXTtDuuItUvzE5NAsT4bzxoM8d5JBEn7QJkjuIsURwR7d6xb8i1breOci4XrtZGIcI6SZnh -agentlib:jdwp=transport=dt_socket,server=n,address=${jpda.address}</exec.vmArgs>
+                <exec.vmArgs>-agentlib:jdwp=transport=dt_socket,server=n,address=${jpda.address}</exec.vmArgs>
                 <exec.args>${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}</exec.args>
                 <exec.appArgs></exec.appArgs>
                 <exec.mainClass>${packageClassName}</exec.mainClass>
@@ -45,7 +45,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:3.1.0:exec</goal>
             </goals>
             <properties>
-                <exec.vmArgs>-DMANUS_API_KEY=sk--QsW0zCPIefexyFZRPv65AXTtDuuItUvzE5NAsT4bzxoM8d5JBEn7QJkjuIsURwR7d6xb8i1breOci4XrtZGIcI6SZnh</exec.vmArgs>
+                <exec.vmArgs></exec.vmArgs>
                 <exec.args>${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}</exec.args>
                 <exec.mainClass>${packageClassName}</exec.mainClass>
                 <exec.executable>java</exec.executable>

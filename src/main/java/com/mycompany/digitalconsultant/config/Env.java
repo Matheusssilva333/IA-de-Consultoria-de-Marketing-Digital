@@ -1,12 +1,12 @@
 package com.mycompany.digitalconsultant.config;
 
 public class Env {
+
     public static String getApiKey() {
-        String apiKey = System.getProperty("MANUS_API_KEY");
-        if (apiKey == null || apiKey.isBlank()) {
-            throw new RuntimeException(
-                    "ERRO: A propriedade MANUS_API_KEY não foi configurada via VM Options (-DMANUS_API_KEY=seu_token).");
+        String key = System.getenv("MANUS_API_KEY");
+        if (key == null || key.isBlank()) {
+            throw new RuntimeException("MANUS_API_KEY não definida");
         }
-        return apiKey;
+        return key;
     }
 }

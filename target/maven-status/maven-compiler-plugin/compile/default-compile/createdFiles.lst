@@ -1,3 +1,4 @@
 com\mycompany\digitalconsultant\ai\ManusClient.class
+com\mycompany\digitalconsultant\ai\ManusService.class
 com\mycompany\digitalconsultant\Main.class
 com\mycompany\digitalconsultant\config\Env.class
