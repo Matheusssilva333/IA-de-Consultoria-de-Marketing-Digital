@@ -1,8 +1,10 @@
-Login.class
+Security\Security.class
+Basededados\db.class
 com\mycompany\digitalconsultant\config\Env.class
-Chat\Interfacechat.class
-Login$1.class
+Interfaceweb\Login$2.class
 com\mycompany\digitalconsultant\ai\ManusClient.class
 com\mycompany\digitalconsultant\ai\ManusService.class
 com\mycompany\digitalconsultant\Main.class
-Login$2.class
+Interfaceweb\Interfacechat.class
+Interfaceweb\Login$1.class
+Interfaceweb\Login.class
