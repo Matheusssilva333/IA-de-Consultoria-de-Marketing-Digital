@@ -1,4 +1,8 @@
+InterfaceWeb$2.class
+com\mycompany\digitalconsultant\config\Env.class
+InterfaceWeb.class
 com\mycompany\digitalconsultant\ai\ManusClient.class
 com\mycompany\digitalconsultant\ai\ManusService.class
 com\mycompany\digitalconsultant\Main.class
-com\mycompany\digitalconsultant\config\Env.class
+InterfaceWeb$3.class
+InterfaceWeb$1.class
