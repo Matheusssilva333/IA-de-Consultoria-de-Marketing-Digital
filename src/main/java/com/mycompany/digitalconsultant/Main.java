@@ -48,7 +48,19 @@ public class Main {
                 System.out.println("\n--- Resposta Estratégica ---");
                 System.out.println(response);
                 System.out.println("----------------------------");
-            }
+                if (input.length() < 5) {
+    System.out.println("Pergunta muito curta. Seja mais específico.");
+    return;
+}
+
+            }{
+                String output = null;
+                          String response = service.askConsultant(output);
+                          System.out.println(response);
+         
+
+
+        }
 
         } catch (Exception e) {
             System.err.println("Erro fatal na aplicação: " + e.getMessage());
