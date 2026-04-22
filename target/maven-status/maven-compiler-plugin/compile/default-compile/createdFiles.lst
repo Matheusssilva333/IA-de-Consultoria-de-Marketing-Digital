@@ -6,5 +6,6 @@ com\mycompany\digitalconsultant\ai\ManusClient.class
 com\mycompany\digitalconsultant\ai\ManusService.class
 com\mycompany\digitalconsultant\Main.class
 Interfaceweb\Interfacechat.class
+Interfaceweb\Login$3.class
 Interfaceweb\Login$1.class
 Interfaceweb\Login.class
