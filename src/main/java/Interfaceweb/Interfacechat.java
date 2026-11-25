@@ -1,13 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package Interfaceweb;
 
+import com.mycompany.digitalconsultant.domain.model.CompanyProfile;
+import com.mycompany.digitalconsultant.domain.model.StructuredDiagnosis;
+
 /**
- *
- * @author User
+ * Contrato de Interface para visualizadores e controladores de Chat/Consultoria.
  */
 public interface Interfacechat {
-    
+
+    void exibirDiagnostico(StructuredDiagnosis diagnosis);
+
+    void carregarPerfil(CompanyProfile profile);
+
+    void atualizarStatusFinOps(int totalTokens, double custoUSD);
 }

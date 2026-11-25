@@ -1,0 +1,19 @@
+{
+  "name": "ia-de-consultoria-de-mercado-financeiro-e-bpo",
+  "version": "2.0.0",
+  "description": "Assistente Estratégico do Mercado Financeiro, BPO Financeiro e Gestão de AUM",
+  "scripts": {
+    "start": "serve public",
+    "build": "echo 'Vercel Deployment Ready'"
+  },
+  "keywords": [
+    "mercado-financeiro",
+    "bpo-financeiro",
+    "aum",
+    "wealth-management",
+    "excel-xlsx",
+    "ai-consultant"
+  ],
+  "author": "Matheus Silva",
+  "license": "MIT"
+}
